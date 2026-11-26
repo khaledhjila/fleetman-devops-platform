@@ -5,4 +5,7 @@ bin/
 target/
 /.recommenders/
 .DS_Store
-.mvn
+# Maven Wrapper JAR files must be committed
+!.mvn/
+!.mvn/wrapper/
+!.mvn/wrapper/maven-wrapper.jar
